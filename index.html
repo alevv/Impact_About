@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <!---    STYLESHEETS  ---->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!---    SCRIPTS  ---->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!---    HEADER  ---->
+    <nav id="header_header" class="navbar sticky-top navbar-expand-lg">
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="nav_icon"></span>
+        </button>
+      <a class="navbar-brand" href="#"> <img src="img/impactlogo.png"> </a>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a href="#" class="nav-item nav-link header_link"> <img src="img/icon.png" > ATLETAS</a>
+          <a href="#" class="nav-item nav-link header_link"> <img src="img/icon.png"> EQUIPOS</a>
+          <a href="#" class="nav-item nav-link header_link"> <img src="img/icon.png" > BLOG</a>
+          <a href="#" class="nav-item nav-link header_link"> <img src="img/icon.png"> CONTACTO</a>
+          <a href="#" class="nav-item nav-link header_login d-flex justify-content-center">
+            <p class="align-self-center"> LOG IN </p>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!---    OVERLAY PRIMER Y SEGUNDO CONTAINER  ---->
+    <div id="about_overlay">
+      <img src="img/about_overlay.png" alt="about overlay" id="about_overlay_image">
+      <!---    PRIMER CONTAINER  ---->
+      <div id="about_primer_container">
+        <div class="row text-center">
+          <div class="col-md-6 offset-md-3">
+            <!---   TITLE PRIMER CONTAINER  ---->
+            <p id="about_title_primer_container">SOBRE NOSOTROS</p>
+            <!---   DESCRIPCION PRIMER CONTAINER  ---->
+            <p id="about_description_primer_container">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+              aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+              zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+            <!---   BOTON PRIMER CONTAINER  ---->
+            <a href="#target-element"><img src="img/about_mouse_icon.png" alt="mouse icon" class="animated infinite bounce slow img-fluid mx-auto d-block"></a>
+          </div>
+        </div>
+      </div>
+
+      <!---    SEGUNDO CONTAINER  ---->
+      <section id="target-element"></section>
+      <div class="row text-center" id="about_segundo_container">
+        <div class="col-md-6 offset-md-3">
+          <p class="about_red_title">NUESTRO OBJETIVO</p>
+          <p id="about_description_segundo_container">El objetivo del proyecto es poder crear una plataforma amigable para usuarios deportistas en todo latinoamérica. Por medio de este sitio/sistema, se podrán establecer rutinas específicas a jugadores de diferentes deportes, preparandolos de la
+            manera más adecuada para sus competencias mediante un algoritmo creado previamente el cual analiza varios factores del usuario. Desde la fecha en la que es el evento, hasta el tiempo que descansa durante la noche cada aspecto fue analizado
+            meticulosamente para poder crear este algoritmo y que de el mejor resultado.</p>
+        </div>
+      </div>
+
+    </div>
+    <!---    TERCER CONTAINER  ---->
+    <div id="about_tercer_container">
+      <div class="row text-center">
+        <div class="col-md-6 offset-md-3">
+          <p class="about_red_title">EL EQUIPO</p>
+          <p id="about_subtitulo_tercer_container">MENTALIDAD IMPACT</p>
+        </div>
+      </div>
+
+      <div class="row text-center align-self-start">
+        <div class="col-md-3 offset-md-2" id="about_hector_cerrado">
+          <img src="img/hector_foto.png" alt="Foto adrian" width="235px" class="img-fluid mx-auto d-block">
+          <p class="about_tercer_container_titulo_persona">MC. Hector Vildósola</p>
+          <p class="about_tercer_container_subtitulo_persona">Fundador / Director Atlético</p>
+          <img src="img/flecha_abajo.png" alt="flecha abajo" width="28px" class="img-fluid mx-auto d-block" id="flecha_hector_abajo">
+
+        </div>
+        <div class="col-md-3 texto_invisible_hector" id="about_hector_abierto">
+          <p id="about_hector_texto">Hector cuenta con mas de 15 años de experiencia, egresado de la carrera de Negocios Internacionales de CETYS Universidad y Master in Exercise Science with emphasis in Sports and Health. Certified Strength and Conditioning Specialist por la NSCA
+            (National Strength and Conditioning Association). <br><br> Trabajo: <br> -Encargado de Preparación Física y entrenador de los equipos de Baloncesto en Imperial Valley College en Imperial, CA. <br> -Preparador físico de la Selección Nacional
+            Varonil de Baloncesto (12 GUERREROS) en 2015 (Clasificatorio a Juegos Olímpicos) <br> -Entrenador asistente de la Selección Nacional Femenil de Baloncesto (Centro Basket en Islas Vírgenes en 2017 y FIBA Americup Buenos Aires, Argentina) <br>-Preparador
+            físico del equipo de futbol americano de CETYS Universidad Categoría Varsity logrando 10 CAMPEONATOS EN 12 años <br> -Preparador Físico de Soles de Mexicali LNBP en 2008 (Campeones Zona Norte) </p>
+        </div>
+
+        <div class="col-md-3 offset-md-2" id="about_adrian_cerrado">
+          <img src="img/adrian_foto.png " alt="Foto adrian" width="235px " class="img-fluid mx-auto d-block ">
+          <p class="about_tercer_container_titulo_persona ">Lic. Adrián Villalobos</p>
+          <p class="about_tercer_container_subtitulo_persona ">Co-Fundador / Director Comercial</p>
+          <img src="img/flecha_abajo.png " alt="flecha abajo" width="28px " class="img-fluid mx-auto d-block " id="flecha_adrian_abajo">
+        </div>
+        <div class="col-md-3 texto_invisible_adrian" id="about_adrian_abierto">
+          <p id="about_adrian_texto"> Adrian cuenta con más de 10 años de experiencia, desde preparación física hasta cómo desarrollar al máximo la carrera deportiva de un jugador. Egresado de CETYS Universidad como Licenciado en Negocios Internacionales y con educación continua
+            en liderazgo, mercadotecnia y ventas.
+            <br><br>Como jugador, logró consagrarse campeón nacional en Orlando, FL en la liga Pop Warner categoría juvenil. Se ha desempeñado como asistente o entrenador de equipos representativos de Futbol Americano y Baloncesto con participación en
+            etapas estatales, regionales y nacionales. </p>
+        </div>
+      </div>
+
+      <div class="row text-center" id="about_hector_mobil">
+        <div class="col-sm-12">
+          <img src="img/hector_foto.png" alt="Foto adrian" width="235px" class="img-fluid mx-auto d-block">
+          <p class="about_tercer_container_titulo_persona">MC. Hector Vildósola</p>
+          <p class="about_tercer_container_subtitulo_persona">Fundador / Director Atlético</p>
+          <p id="about_hector_texto">Hector cuenta con mas de 15 años de experiencia, egresado de la carrera de Negocios Internacionales de CETYS Universidad y Master in Exercise Science with emphasis in Sports and Health. Certified Strength and Conditioning Specialist por la NSCA
+            (National Strength and Conditioning Association). <br><br> Trabajo: <br> -Encargado de Preparación Física y entrenador de los equipos de Baloncesto en Imperial Valley College en Imperial, CA. <br> -Preparador físico de la Selección Nacional
+            Varonil de Baloncesto (12 GUERREROS) en 2015 (Clasificatorio a Juegos Olímpicos) <br> -Entrenador asistente de la Selección Nacional Femenil de Baloncesto (Centro Basket en Islas Vírgenes en 2017 y FIBA Americup Buenos Aires, Argentina) <br>-Preparador
+            físico del equipo de futbol americano de CETYS Universidad Categoría Varsity logrando 10 CAMPEONATOS EN 12 años <br> -Preparador Físico de Soles de Mexicali LNBP en 2008 (Campeones Zona Norte)</p>
+        </div>
+      </div>
+
+      <div class="row text-center" id="about_adrian_mobil">
+        <div class="col-sm-12">
+          <img src="img/adrian_foto.png " alt="Foto adrian" width="235px " class="img-fluid mx-auto d-block ">
+          <p class="about_tercer_container_titulo_persona ">Lic. Adrián Villalobos</p>
+          <p class="about_tercer_container_subtitulo_persona ">Co-Fundador / Director Comercial</p>
+          <p id="about_adrian_texto"> Adrian cuenta con más de 10 años de experiencia, desde preparación física hasta cómo desarrollar al máximo la carrera deportiva de un jugador. Egresado de CETYS Universidad como Licenciado en Negocios Internacionales y con educación continua
+            en liderazgo, mercadotecnia y ventas.
+            <br><br>Como jugador, logró consagrarse campeón nacional en Orlando, FL en la liga Pop Warner categoría juvenil. Se ha desempeñado como asistente o entrenador de equipos representativos de Futbol Americano y Baloncesto con participación en
+            etapas estatales, regionales y nacionales. </p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!---    FOOTER CONTAINER  ---->
+    <div id="footer_container" class="row">
+      <div id="footer_contenido">
+        <nav class="navbar navbar-expand-lg justify-content-center" id="footer_links">
+          <a href="#" class="nav-item nav-link footer_link"> <img src="img/icon.png" > ATLETAS</a>
+          <a href="#" class="nav-item nav-link footer_link"> <img src="img/icon.png"> EQUIPOS</a>
+          <a href="#" class="nav-item nav-link footer_link"> <img src="img/icon.png" > BLOG</a>
+          <a href="#" class="nav-item nav-link footer_link"> <img src="img/icon.png"> CONTACTO</a>
+        </nav>
+        <div id="footer_contacto" class="d-flex justify-content-between">
+          <div id="footer_contacto_1" class="">
+            <span class="footer_contacto_titulo"> E-MAIL: <p class="footer_contacto_info"> mentalidadimpact@gmail.com </p>  </span>
+            <span class="footer_contacto_titulo"> TEL.: <p class="footer_contacto_info"> (52) 1 686 123-4567 </p>  </span>
+          </div>
+          <div id="footer_contacto_2" class="">
+            <a href="#" class="footer_fb"> </a> <a href="#" class="footer_tw"> </a> <a href="#" class="footer_inst"> </a> <a href="#" class="footer_yt"> </a>
+          </div>
+          <div id="footer_contacto_3" class="">
+            <a href="#"> <img src="img/impactlogo.png"> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
